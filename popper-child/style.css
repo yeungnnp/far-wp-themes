@@ -1,0 +1,50 @@
+/*
+Theme Name: Popper Child Theme
+Theme URI: 
+Description:
+Author: yeungn
+Author URI:
+Template: popper
+Version: 1.0
+*/
+
+@import url("../popper/style.css");
+
+.site-header {
+  background-color: #650000;
+}
+
+.site-footer {
+  background-color: #650000;
+  color: #E51818;
+}
+.site-footer a {
+  color: #E51818;
+}
+
+.site-footer a:hover, a:focus{
+  color: #ffba00;
+}
+@media screen and (min-width: 50em) {
+  .main-navigation, .main-navigation.toggled {
+      position: relative;
+      min-height: 3.5em;
+      margin: 0 auto;
+      padding: 0 3.5em;
+      background-color: #650000;
+      /* background-color: hsla(0, 0%, 0%, .7); */
+  }
+}
+
+.main-navigation a {
+  color: #E51818;
+}
+
+@media screen and (min-width: 50em) {
+  .main-navigation a:hover, .main-navigation a:focus {
+      background: transparent;
+      color: #ffba00;
+      text-decoration: underline;
+      /* outline: solid 1px #b3b3b3; */
+  }
+}
