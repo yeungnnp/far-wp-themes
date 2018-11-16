@@ -7,3 +7,9 @@ Author URI:
 Template: astra
 Version: 1.0
 */
+
+@import url("../astra/assets/unminified/style.css");
+
+.main-header-bar {
+  background-color: #650000;
+}
